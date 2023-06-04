@@ -1,0 +1,22 @@
+---------------------------------
+----------------K8s--------------
+---------------------------------
+
+-With Kubernetes, using the Kubernetes CLI known as Kubectl you can run a 1000 instance of the same application with a single command. Kubernetes can scale it up to 2000 with another command.  
+
+-Kubernetes can even be configured to do these automatically so that instances and the infrastructure itself can scale up and down based on user load. 
+
+-Kubernetes can upgrade these 2000 instances of application in a rolling fashion one at a time, with a single command. If something goes wrong, it can help you roll back these images with a single command. 
+
+-The Kubernetes open architecture provides support for many different network and storage vendors. Any network or storage brand you can think of has a plugin for kubernetes.  
+
+-Kubernetes supports a variety of authentication and authorization mechanisms. 
+
+-All major cloud service providers have native support for Kubernetes. 
+
+-So what's the relation between Docker and Kubernetes. Kubernetes uses Docker hosts to host applications in the form of Docker containers. Well it need not be Docker all the time, Kubernetes supports alternatives to Docker as well, such as Rocket or Crio.
+
+-When you install Kubernetes on a System, you are actually installing the following components. An API Server. An ETCD service. A kubelet service. A Container Runtime, Controllers and Schedulers.
+
+-kubelet is the agent that runs on each node in the cluster. The agent is responsible for making sure that the containers are running on the nodes as expected.
+
